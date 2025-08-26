@@ -35,4 +35,6 @@ jobs:
           blackducksca_reports_sarif_create: true
           github_token: ${{ secrets.GH_TOKEN }}
           blackducksca_upload_sarif_report: true
+          detect_args: --detect.project.name=katsuoka-test
+          detect_args: --detect.project.version.name=1.0       
           detect_args: --detect.excluded.detector.types=GIT
