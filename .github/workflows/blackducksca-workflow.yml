@@ -34,4 +34,4 @@ jobs:
           blackducksca_fixpr_enabled: false
           blackducksca_reports_sarif_create: true
           blackducksca_upload_sarif_report: true
-          detect_args: --detect.excluded.detector.types=GIT
+#          detect_args: --detect.excluded.detector.types=GIT
