@@ -33,6 +33,6 @@ jobs:
           blackducksca_prComment_enabled: true
           blackducksca_fixpr_enabled: true
           blackducksca_reports_sarif_create: true
-          github_token: ${{ secrets.GH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           blackducksca_upload_sarif_report: false
           detect_args: --detect.project.name="katsuoka-test4" --detect.project.version.name="1.0" --detect.excluded.detector.types=GIT
